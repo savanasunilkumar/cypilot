@@ -1,0 +1,20 @@
+{
+  "name": "@cypilot/mcp-client",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "type-check": "tsc --noEmit",
+    "clean": "rm -rf dist"
+  },
+  "dependencies": {
+    "@cypilot/shared": "workspace:*"
+  },
+  "devDependencies": {
+    "@cypilot/tsconfig": "workspace:*",
+    "typescript": "^5.3.0"
+  }
+}
